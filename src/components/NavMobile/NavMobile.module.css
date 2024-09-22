@@ -1,0 +1,54 @@
+@keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(200px);
+              transform: translateY(200px);
+    }
+  }
+
+.nav {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    background-image: url('../../../public/img/pattern-png-30769.png');
+    background-repeat: no-repeat;
+    background-position: 18% 12%;
+    background-attachment: fixed; 
+    background-color: #573129;
+    flex-direction: column-reverse;
+    left: 0;
+    right: 0;
+    width: 100%;
+    align-items: center;
+    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    padding: 30px 0;
+    border-bottom: 1px solid #FFB782;
+    border-radius: 0 0 20px 20px;
+}
+
+.icon {
+    fill: #d0af9d;
+    width: 35px;
+    transition: fill .3s;
+}
+
+.icon:hover {
+    fill: #998174;
+}
+
+.icon:active {
+    fill: #ce9b80;
+}
+
+.navIconMobile {
+    display: flex;
+    gap: 20px;
+}
+
+.navMobile {
+    display: flex;
+    flex-direction: column;
+}

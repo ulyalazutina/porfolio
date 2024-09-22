@@ -1,0 +1,28 @@
+.item {
+    flex: 0 1 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #6a1f19;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.img {
+    width: 35px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .item {
+        padding: 10px 20px;
+    }
+    .img {
+        width: 25px;
+    }
+}

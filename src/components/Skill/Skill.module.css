@@ -1,0 +1,18 @@
+.skillImg {
+    width: 35px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: 20px;
+    background-color: #a46c58;
+    padding: 7px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 20px;
+    }
+}

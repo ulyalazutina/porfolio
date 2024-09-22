@@ -1,0 +1,28 @@
+.tab {
+    background-color: #6a1f19;
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.tab:hover {
+    background-color: rgb(167, 62, 55);
+}
+
+.tab:active {
+    background-color: rgb(80, 19, 15);
+}
+
+.tab > input {
+    appearance: none;
+}
+
+@media (max-width: 768px) {
+    .tab {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    
+}

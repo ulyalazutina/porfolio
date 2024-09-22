@@ -1,0 +1,44 @@
+.item {
+    border-radius: 35px;
+    background-color: #a46c58;
+    padding: 15px;
+    display: grid;
+    gap: 20px;
+    height: 100%;
+}
+
+.itemWrap {
+    background-color: #6a1f19;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+}
+
+.year {
+    font-variant-numeric: lining-nums;
+}
+
+.inner {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon {
+    width: 35px;
+    fill: #6a1f19;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 20px;
+    }
+    .year,.text {
+        font-size: 20px;
+    }
+    .icon {
+        min-width: 35px;
+    }
+}

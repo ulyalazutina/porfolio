@@ -1,0 +1,49 @@
+.container {
+  background-image: url('../public/img/pattern-png-30769.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  padding-right: calc(50% - 1400px / 2);
+  padding-left: calc(50% - 1400px / 2);
+  background-color: #573129;
+  position: relative;
+
+}
+
+@media (max-width: 1500px) {
+  .container {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 445px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+
